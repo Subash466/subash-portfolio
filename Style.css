@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --primary:#ffffff;
+  --secondary:#C2410C;
+  --text:#ffffff;
+
+
+}
+body{
+  font-family: "Lucida Sans", sans-serif;
+}
+#banner_image{
+  min-height: 660px;
+  
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url("header.jpg") no-repeat  center;
+  background-size: cover;
+}
+
+
+
+ 
+.nav{
+  font-size: 2rem;
+  margin: 0.5rem;
+  margin-right: -10rem;
+  
+} 
+
+
+#banner_heading{
+   background-color: rgb(4, 41, 75);
+   color: white;
+   font-size: 3rem;
+   border: 1rem double beige;
+   padding: 1rem;
+   text-align: center;
+}
+#banner_para{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 3.7rem;
+  color:rgb(25, 43, 202);
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 17rem;
+}
+.link{
+  display: inline;
+  background-color: ;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  font-size: 3rem;
+  border: 0.8rem double rgb(77, 66, 6);
+  
+}
+.link a:link{
+  text-decoration: none;
+  color: #719e09;
+  }
+.link a:visited{
+  color: white;
+}
+.link a:hover{
+  color: #e6d32d;
+}
+
